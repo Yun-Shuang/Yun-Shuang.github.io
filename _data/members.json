@@ -12,6 +12,7 @@
       "research": "Neuroimaging genetics; brain connectomics; machine intelligence for psychiatric disorders",
       "research_zh": "影像遗传学、脑连接组学与精神疾病智能诊疗",
       "photo": "assets/people/yun-shuang-fan.jpg",
+      "photo_card": "assets/people/yun-shuang-fan-card.jpg",
       "email": "",
       "links": {
         "scholar": "https://scholar.google.com/citations?user=CY_RlkAAAAAJ&hl=en",
@@ -158,28 +159,6 @@
       "destination_zh": ""
     },
     {
-      "id": "zihan-zhang",
-      "name": "Zihan Zhang",
-      "name_zh": "张紫涵",
-      "role": "master",
-      "since": 2025,
-      "research": "Pattern recognition and intervention",
-      "research_zh": "模式识别与干预",
-      "photo": "",
-      "email": "",
-      "links": {
-        "scholar": "",
-        "github": "",
-        "gitlab": "",
-        "orcid": "",
-        "homepage": ""
-      },
-      "bio": "",
-      "bio_zh": "",
-      "destination": "",
-      "destination_zh": ""
-    },
-    {
       "id": "jinxing-chen",
       "name": "Jinxing Chen",
       "name_zh": "陈金星",
@@ -233,6 +212,28 @@
       "research_zh": "精神分裂症风险分析",
       "photo": "assets/people/xiaoxue-fu.jpg",
       "email": "",
+      "links": {
+        "scholar": "",
+        "github": "",
+        "gitlab": "",
+        "orcid": "",
+        "homepage": ""
+      },
+      "bio": "",
+      "bio_zh": "",
+      "destination": "",
+      "destination_zh": ""
+    },
+    {
+      "id": "zihan-zhang",
+      "name": "Zihan Zhang",
+      "name_zh": "张紫涵",
+      "role": "master",
+      "since": 2024,
+      "research": "Neuroimaging Analysis and Disease Prediction",
+      "research_zh": "神经影像分析与疾病预测",
+      "photo": "assets/people/zihan-zhang.jpg",
+      "email": "zh_zihan@qq.com",
       "links": {
         "scholar": "",
         "github": "",

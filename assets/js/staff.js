@@ -30,6 +30,9 @@
   }
 
   function avatar(m, lg) {
+    if (lg && m.photo_card) {
+      return '<img class="avatar lg" src="/' + esc(m.photo_card) + '" alt="' + esc(m.name) + '" loading="lazy">';
+    }
     return photoBlock(m, "avatar" + (lg ? " lg" : ""));
   }
 

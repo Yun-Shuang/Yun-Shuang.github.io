@@ -30,10 +30,33 @@
     alumni: ["Alumni", "毕业校友"]
   };
 
+  var spy = null;
+
+  function setActiveDot(slug) {
+    if (!nav) return;
+    nav.querySelectorAll(".res-dot").forEach(function (a) {
+      a.classList.toggle("active", a.getAttribute("data-slug") === slug);
+    });
+  }
+
+  function setupSpy() {
+    if (!nav || !("IntersectionObserver" in window)) return;
+    if (spy) spy.disconnect();
+    spy = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) setActiveDot(e.target.id);
+      });
+    }, { rootMargin: "-140px 0px -55% 0px" });
+    box.querySelectorAll(".res-block").forEach(function (el) { spy.observe(el); });
+  }
+
   function renderNav() {
     if (!nav) return;
-    nav.innerHTML = '<div class="wrap res-nav-inner">' + dirs.map(function (d) {
-      return '<a href="#' + esc(d.slug || "") + '">' + esc(pick(d, "title")) + "</a>";
+    nav.innerHTML = '<div class="wrap res-nav-inner">' + dirs.map(function (d, i) {
+      var num = ("0" + (i + 1)).slice(-2);
+      var name = pick(d, "title");
+      return '<a class="res-dot" href="#' + esc(d.slug || "") + '" data-slug="' + esc(d.slug || "") +
+        '" title="' + esc(name) + '" aria-label="' + esc(name) + '">' + num + "</a>";
     }).join("") + "</div>";
   }
 
@@ -52,6 +75,7 @@
   function render() {
     if (!dirs) return;
     renderNav();
+    setActiveDot(dirs[0] ? dirs[0].slug : "");
 
     box.innerHTML = dirs.map(function (d, i) {
       var idx = ("0" + (i + 1)).slice(-2);
@@ -92,6 +116,8 @@
         keywords + papersHtml + peopleHtml +
         "</div></article>";
     }).join("");
+
+    setupSpy();
   }
 
   window.MSB.fetchJSON("/_data/members.json").then(function (d) {
