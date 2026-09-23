@@ -1,5 +1,5 @@
 {
-  "_comment_": "复制本文件并重命名为 <你的英文id>.json（小写字母+连字符，如 san-zhang.json），然后填写以下字段。不需要的字段留空字符串即可。详见 docs/成员自助维护指南.md",
+  "_comment_": "推荐直接用在线生成器：https://yun-shuang.github.io/member-json/ （填表一键生成并下载）。手动方式：复制本文件重命名为 <你的id>.json 并填写。id 规则 = 英文姓名转小写、空格换成连字符（名-姓顺序），如 San Zhang → san-zhang。详见 docs/成员自助维护指南.md",
 
   "id": "san-zhang",
   "name": "San Zhang",
@@ -12,7 +12,7 @@
   "research": "Multimodal MRI biomarkers of schizophrenia",
   "research_zh": "精神分裂症多模态磁共振影像标志物",
 
-  "_photo_": "可选。把照片放到 assets/people/san-zhang.jpg（正方形、≤500KB），此处填 assets/people/san-zhang.jpg；留空则自动显示姓名首字母头像",
+  "_photo_": "可选。把照片放到 assets/people/san-zhang.jpg（正方形、边长 ≥400px、≤300KB），此处填 assets/people/san-zhang.jpg；留空则自动显示姓名首字母头像",
   "photo": "",
 
   "email": "",

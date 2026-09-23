@@ -63,15 +63,15 @@
     var sincePart = "";
     if (m.since) {
       sincePart = lang() === "zh"
-        ? " · " + m.since + " " + window.MSB.t("people.since")
-        : " · " + window.MSB.t("people.since") + " " + m.since;
+        ? " · " + m.since + " " + window.MSB.t("staff.since")
+        : " · " + window.MSB.t("staff.since") + " " + m.since;
     }
     var dest = lang() === "zh" ? (m.destination_zh || m.destination) : (m.destination || m.destination_zh);
     return '<div class="member-card">' + avatar(m) + '<div class="member-info">' +
       '<div class="member-name">' + esc(pick(m, "name")) + "</div>" +
       '<div class="member-role">' + esc(role + sincePart) + "</div>" +
       '<div class="member-research">' + esc(pick(m, "research")) + "</div>" +
-      (dest ? '<div class="member-dest">' + esc(window.MSB.t("people.now") + ": " + dest) + "</div>" : "") +
+      (dest ? '<div class="member-dest">' + esc(window.MSB.t("staff.now") + ": " + dest) + "</div>" : "") +
       links(m) + "</div></div>";
   }
 

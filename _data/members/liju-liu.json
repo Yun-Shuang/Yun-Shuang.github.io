@@ -1,0 +1,22 @@
+{
+  "id": "liju-liu",
+  "name": "Liju Liu",
+  "name_zh": "刘立举",
+  "role": "phd",
+  "since": 2025,
+  "research": "Multimodal neuroimaging of schizophrenia",
+  "research_zh": "精神分裂症多模态神经影像",
+  "photo": "assets/people/liju-liu.jpg",
+  "email": "lijuliu1997@163.com",
+  "links": {
+    "scholar": "",
+    "github": "https://github.com/liju-liu",
+    "gitlab": "",
+    "orcid": "https://orcid.org/0009-0003-1222-612X",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

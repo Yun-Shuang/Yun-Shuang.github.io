@@ -1,0 +1,49 @@
+{
+  "papers": [
+    {
+      "title": "Neurodevelopmentally rooted epicenters in schizophrenia: sensorimotor-association spatial axis of cortical thickness alterations",
+      "authors": "Yun-Shuang Fan, Yong Xu, Meike D. Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
+      "venue": "Molecular Psychiatry",
+      "year": 2025,
+      "citations": 6,
+      "link": "https://doi.org/10.1038/s41380-025-03193-9",
+      "cover": "assets/img/covers/paper-1.jpg"
+    },
+    {
+      "title": "Disease-specific alterations of effective connectivity across anti-correlated networks in major depressive disorder and bipolar disorder",
+      "authors": "Yun-Shuang Fan, Saike Zhang, Wei Sheng, Jing Guo, Hezong Ling, Qian Cui, Wei Huang, Huafu Chen",
+      "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
+      "year": 2025,
+      "citations": 4,
+      "link": "https://doi.org/10.1016/j.pnpbp.2025.111283",
+      "cover": "assets/img/covers/paper-2.jpg"
+    },
+    {
+      "title": "Anterior-posterior systematic deficits of cortical thickness in early-onset schizophrenia",
+      "authors": "Yun-Shuang Fan, Yong Xu, Bin Wan, Wei Sheng, Chong Wang, Mi Yang, Sofie L. Valk, Huafu Chen",
+      "venue": "Communications Biology",
+      "year": 2025,
+      "citations": 3,
+      "link": "https://doi.org/10.1038/s42003-025-08216-3",
+      "cover": "assets/img/covers/paper-3.jpg"
+    },
+    {
+      "title": "Neurodevelopmental deviations in schizophrenia: Evidences from multimodal connectome-based brain ages",
+      "authors": "Yun-Shuang Fan, Pengfei Yang, Yucheng Zhu, Wenfeng Jing, Yuting Xu, Yong Xu, Jing Guo, Fengmei Lu, et al.",
+      "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
+      "year": 2025,
+      "citations": 1,
+      "link": "https://doi.org/10.1016/j.pnpbp.2025.111498",
+      "cover": "assets/img/covers/paper-4.jpg"
+    },
+    {
+      "title": "Spatio-temporal information transition abnormalities across brain functional networks in early-onset schizophrenia",
+      "authors": "Yun-Shuang Fan, Mang Ye, Yuting Xu, Yong Xu, Jing Guo, Mi Yang, Wei Huang, Huafu Chen",
+      "venue": "Schizophrenia Research",
+      "year": 2025,
+      "citations": 0,
+      "link": "https://doi.org/10.1016/j.schres.2025.11.007",
+      "cover": "assets/img/covers/paper-5.jpg"
+    }
+  ]
+}

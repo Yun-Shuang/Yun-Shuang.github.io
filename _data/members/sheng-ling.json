@@ -1,0 +1,22 @@
+{
+  "id": "sheng-ling",
+  "name": "Sheng Ling",
+  "name_zh": "凌圣",
+  "role": "master",
+  "since": 2024,
+  "research": "The pathogenesis of schizophrenia",
+  "research_zh": "精神分裂症发病机制",
+  "photo": "assets/people/sheng-ling.jpg",
+  "email": "2972162884@qq.com",
+  "links": {
+    "scholar": "",
+    "github": "",
+    "gitlab": "",
+    "orcid": "",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

@@ -1,0 +1,22 @@
+{
+  "id": "xiaoxue-fu",
+  "name": "Xiaoxue Fu",
+  "name_zh": "付小雪",
+  "role": "master",
+  "since": 2024,
+  "research": "Schizophrenia Risk Analysis",
+  "research_zh": "精神分裂症风险分析",
+  "photo": "assets/people/xiaoxue-fu.jpg",
+  "email": "",
+  "links": {
+    "scholar": "",
+    "github": "",
+    "gitlab": "",
+    "orcid": "",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

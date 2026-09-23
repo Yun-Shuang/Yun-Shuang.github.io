@@ -1,0 +1,24 @@
+{
+  "id": "yun-shuang-fan",
+  "name": "Yun-Shuang Fan",
+  "name_zh": "樊云霜",
+  "title": "Associate Professor, School of Life Science and Technology, UESTC",
+  "title_zh": "电子科技大学生命科学与技术学院 副教授",
+  "role": "pi",
+  "since": 0,
+  "research": "Neuroimaging genetics; brain connectomics; machine intelligence for psychiatric disorders",
+  "research_zh": "影像遗传学、脑连接组学与精神疾病智能诊疗",
+  "photo": "assets/people/yun-shuang-fan.jpg",
+  "email": "",
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=CY_RlkAAAAAJ&hl=en",
+    "github": "https://github.com/Yun-Shuang",
+    "gitlab": "",
+    "orcid": "",
+    "homepage": "https://www.life.uestc.edu.cn/sznr2.jsp?urltype=news.NewsContentUrl&wbtreeid=1223&wbnewsid=7107"
+  },
+  "bio": "PhD in Biomedical Engineering (UESTC, 2023). Member of the MOE Key Laboratory for NeuroInformation, Brain-Computer Interface & Brain-Inspired Intelligence Key Laboratory of Sichuan Province.",
+  "bio_zh": "生物医学工程博士（电子科技大学，2023）。神经信息教育部重点实验室、脑计算机接口与脑启发智能四川省重点实验室成员。",
+  "destination": "",
+  "destination_zh": ""
+}

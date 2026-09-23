@@ -1,0 +1,22 @@
+{
+  "id": "yiqi-mi",
+  "name": "Yiqi Mi",
+  "name_zh": "米怡祺",
+  "role": "phd",
+  "since": 2025,
+  "research": "Major depression disorder; Emotional disorder; Inflammation; Multi-organ",
+  "research_zh": "抑郁；情绪障碍；炎症；多器官",
+  "photo": "assets/people/yiqi-mi.jpg",
+  "email": "",
+  "links": {
+    "scholar": "https://scholar.google.com/citations?user=8s6VSSEAAAAJ&hl=en&oi=ao",
+    "github": "",
+    "gitlab": "",
+    "orcid": "https://orcid.org/0009-0001-1647-3289",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

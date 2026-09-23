@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MSB — Mapping Schizophrenia Brain | UESTC</title>
-  <meta name="description" content="The MSB (Mapping Schizophrenia Brain) group at UESTC studies the neural mechanisms of schizophrenia with multimodal MRI, connectomics and machine learning. Led by Dr. Yun-Shuang Fan.">
+  <meta name="description" content="The MSB (Mapping Schizophrenia Brain) group at UESTC studies brain pathophysiology across psychiatric diseases via neuroimaging genetics and machine intelligence. Led by Prof. Yun-Shuang Fan.">
   <link rel="icon" type="image/svg+xml" href="/assets/img/logo-square.svg">
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -12,78 +12,93 @@
   <div id="site-header"></div>
 
   <main>
+    <!-- 1.1 Hero -->
     <section class="hero">
       <div class="wrap">
-        <div class="hero-kicker" data-i18n="home.kicker"></div>
+        <img class="hero-mark" src="/assets/img/icon-only.png" alt="MSB — Mapping Schizophrenia Brain">
         <h1 data-i18n="home.title"></h1>
         <p data-i18n="home.lead"></p>
       </div>
     </section>
 
-    <section class="section" id="team-section">
-      <div class="wrap">
-        <h2 class="section-title" data-i18n="home.team.title"></h2>
-        <p class="section-sub team-sub" data-i18n="home.team.lead"></p>
-
-        <div class="team-reveal" id="team-reveal">
-          <div class="team-reveal-inner">
-            <figure class="team-photo-wrap">
-              <!-- 已接入真实合照：assets/img/group-photo.jpg（2000px 宽，403KB） -->
-              <img id="team-photo" src="/assets/img/group-photo.jpg" width="2000" height="1333"
-                   alt="MSB group photo" data-i18n-alt="home.team.alt">
-            </figure>
-            <div class="team-caption">
-              <span data-i18n="home.team.caption"></span>
-              <span data-i18n="home.team.location"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- 1.2 Research directions -->
     <section class="section">
       <div class="wrap">
-        <h2 class="section-title" data-i18n="home.hl.title"></h2>
-        <div class="section-sub"></div>
-        <div class="hl-grid">
-          <div class="hl-item">
-            <h3><span class="hl-num">01</span><span data-i18n="home.hl.1.t"></span></h3>
-            <p data-i18n="home.hl.1.p"></p>
-          </div>
-          <div class="hl-item">
-            <h3><span class="hl-num">02</span><span data-i18n="home.hl.2.t"></span></h3>
-            <p data-i18n="home.hl.2.p"></p>
-          </div>
-          <div class="hl-item">
-            <h3><span class="hl-num">03</span><span data-i18n="home.hl.3.t"></span></h3>
-            <p data-i18n="home.hl.3.p"></p>
-          </div>
-        </div>
+        <h2 class="section-title" data-i18n="home.research.title"></h2>
+        <div class="dir-grid" id="dir-grid"></div>
       </div>
     </section>
 
+    <!-- 1.3 Recent publications -->
     <section class="section">
       <div class="wrap">
-        <h2 class="section-title" data-i18n="home.news.title"></h2>
-        <div class="section-sub"></div>
-        <ul class="news-list" id="news-list"></ul>
+        <h2 class="section-title" data-i18n="home.papers.title"></h2>
+        <div class="papers-layout">
+          <div class="papers-carousel" id="papers-carousel"></div>
+          <ul class="papers-list" id="papers-list"></ul>
+        </div>
+        <p class="mt-24"><a href="/publications/" data-i18n="home.papers.more"></a> →</p>
       </div>
     </section>
 
+    <!-- 1.4 Team photo -->
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title" data-i18n="home.members.title"></h2>
+        <a class="team-link" href="/staff/" id="team-link">
+          <figure class="team-photo" id="team-photo">
+            <img src="/assets/img/team-photo.jpg" alt="MSB group" loading="lazy">
+          </figure>
+          <span class="team-cta" data-i18n="home.members.cta"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 1.5 Principal Investigator -->
     <section class="section">
       <div class="wrap">
         <h2 class="section-title" data-i18n="home.pi.title"></h2>
-        <div class="section-sub"></div>
-        <div id="home-pi"></div>
+        <div class="pi-layout">
+          <img class="pi-photo" src="/assets/people/yun-shuang-fan.jpg" alt="Yun-Shuang Fan" loading="lazy">
+          <div class="pi-info">
+            <h3>Yun-Shuang Fan</h3>
+            <p class="pi-title"><a href="https://www.life.uestc.edu.cn/sznr2.jsp?urltype=news.NewsContentUrl&wbtreeid=1223&wbnewsid=7107"
+               target="_blank" rel="noopener" data-i18n="home.pi.role"></a></p>
+            <p class="pi-affil" data-i18n="home.pi.moe"></p>
+
+            <h4 class="cv-head" data-i18n="home.pi.edu.title"></h4>
+            <ul class="cv-list">
+              <li data-i18n="home.pi.edu1"></li>
+              <li data-i18n="home.pi.edu2"></li>
+              <li data-i18n="home.pi.edu3"></li>
+            </ul>
+
+            <h4 class="cv-head" data-i18n="home.pi.career.title"></h4>
+            <ul class="cv-list">
+              <li data-i18n="home.pi.career1"></li>
+              <li data-i18n="home.pi.career2"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1.6 Funding -->
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title" data-i18n="home.funding.title"></h2>
+        <ul class="funding-list">
+          <li data-i18n="home.funding.1"></li>
+          <li data-i18n="home.funding.2"></li>
+          <li data-i18n="home.funding.3"></li>
+          <li data-i18n="home.funding.4"></li>
+        </ul>
       </div>
     </section>
   </main>
 
   <div id="site-footer"></div>
   <script src="/assets/js/site.js"></script>
-  <script src="/assets/js/people.js"></script>
-  <script src="/assets/js/team.js"></script>
-  <script src="/assets/js/news.js"></script>
-  <script>MSBPeople.renderPI(document.getElementById("home-pi"));</script>
+  <script src="/assets/js/home.js"></script>
 </body>
 </html>

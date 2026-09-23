@@ -1,0 +1,32 @@
+{
+  "directions": [
+    {
+      "title": "Brain development and neuroimaging genetics",
+      "title_zh": "脑发育与影像遗传学",
+      "desc": "Uncovering the associations among brain evolution, development, and psychiatric disorders using multiple MRI and spatial transcriptomic data",
+      "desc_zh": "结合多模态磁共振成像与空间转录组数据，揭示脑进化、脑发育与精神疾病之间的关联",
+      "members": ["xiaoxue-fu", "chang-yan", "sheng-ling", "yuting-xu"]
+    },
+    {
+      "title": "Brain connectomics and dynamics",
+      "title_zh": "脑连接组学与动力学",
+      "desc": "Characterizing aberrant brain network organization using connectomics, gradients, effective connectivity and temporal dynamics",
+      "desc_zh": "利用连接组学、功能梯度、有效连接与时间动态，刻画精神疾病中的异常脑网络组织",
+      "members": ["xiumei-wu", "john-worrick", "wenxuan-gu", "maowei-ye"]
+    },
+    {
+      "title": "Environmental factors and proteomics",
+      "title_zh": "环境因素与蛋白质组学",
+      "desc": "Modeling pathophysiological mechanisms by integrating neuroimaging, environmental exposure, and proteomic data",
+      "desc_zh": "融合脑影像、环境暴露与蛋白质组数据，建模精神疾病的病理生理机制",
+      "members": ["liju-liu", "yiqi-mi", "jinxing-chen"]
+    },
+    {
+      "title": "Pattern recognition and intervention",
+      "title_zh": "模式识别与干预",
+      "desc": "Developing machine-learning methods to predict symptoms, treatment response and illness trajectories, and further aiding clinical interventions",
+      "desc_zh": "发展机器学习方法，预测症状、治疗反应与疾病转归，辅助临床干预",
+      "members": ["zihan-zhang", "lei-cheng", "shang-ma", "wenfeng-jing"]
+    }
+  ]
+}

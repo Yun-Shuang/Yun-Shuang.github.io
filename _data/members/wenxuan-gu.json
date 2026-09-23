@@ -1,0 +1,22 @@
+{
+  "id": "wenxuan-gu",
+  "name": "Wenxuan Gu",
+  "name_zh": "古文萱",
+  "role": "master",
+  "since": 2026,
+  "research": "Multimodal neuroimaging of schizophrenia",
+  "research_zh": "精神分裂症多模态脑影像研究",
+  "photo": "assets/people/wenxuan-gu.jpg",
+  "email": "",
+  "links": {
+    "scholar": "",
+    "github": "",
+    "gitlab": "",
+    "orcid": "",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

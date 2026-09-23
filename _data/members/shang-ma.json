@@ -1,0 +1,22 @@
+{
+  "id": "shang-ma",
+  "name": "Shang Ma",
+  "name_zh": "马尚",
+  "role": "master",
+  "since": 2025,
+  "research": "Pattern recognition and intervention",
+  "research_zh": "模式识别与干预",
+  "photo": "",
+  "email": "",
+  "links": {
+    "scholar": "",
+    "github": "",
+    "gitlab": "",
+    "orcid": "",
+    "homepage": ""
+  },
+  "bio": "",
+  "bio_zh": "",
+  "destination": "",
+  "destination_zh": ""
+}

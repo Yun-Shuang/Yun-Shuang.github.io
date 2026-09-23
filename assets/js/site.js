@@ -43,13 +43,13 @@
       header.innerHTML =
         '<div class="site-header"><div class="wrap nav-wrap">' +
         '<a class="brand" href="/">' +
-        '<img class="brand-logo" src="/assets/img/logo.svg" alt="MSB — Mapping Schizophrenia Brain">' +
+        '<img class="brand-logo" src="/assets/img/full-name.png" alt="MSB — Mapping Schizophrenia Brain">' +
         "</a>" +
         '<button class="menu-btn" id="menu-btn" aria-label="menu">☰</button>' +
         '<ul class="nav-links" id="nav-links">' +
         li("home", "/", "nav.home") +
         li("research", "/research/", "nav.research") +
-        li("people", "/people/", "nav.people") +
+        li("staff", "/staff/", "nav.staff") +
         li("publications", "/publications/", "nav.publications") +
         li("contact", "/contact/", "nav.contact") +
         '<li class="lang-item"><button class="lang-toggle" id="lang-toggle">中文</button></li>' +
