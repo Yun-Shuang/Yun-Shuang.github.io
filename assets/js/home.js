@@ -99,32 +99,74 @@
     });
   }
 
-  /* ---------------- 1.4 team photo scroll reveal ---------------- */
+  /* ---------------- 1.4 team photo: scroll then magnetic snap ---------------- */
   var teamPhoto = document.getElementById("team-photo");
 
   function initTeamPhoto() {
     if (!teamPhoto) return;
     var reduce = window.matchMedia &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var img = teamPhoto.querySelector("img");
-    if (reduce || !img) return;
+    if (reduce) return; // stay fully visible
 
-    img.style.opacity = "0";
-    img.style.willChange = "opacity, transform";
+    var SNAP = 0.30;    // photo top 30% up the viewport -> absorb into place
+    var RELEASE = 0.12; // scrolling back above this line -> release
+    var state = "engaged";
+    var releaseTimer = null;
+
+    function setVars(o, y, s) {
+      teamPhoto.style.setProperty("--tp-o", o);
+      teamPhoto.style.setProperty("--tp-y", y);
+      teamPhoto.style.setProperty("--tp-s", s);
+    }
+
+    // engaged state never fully completes, leaving a visible "pull" for the snap
+    function engagedVars(t) {
+      setVars(
+        (0.12 + 0.78 * t).toFixed(3),
+        (-58 + 30 * t).toFixed(1) + "px",
+        (0.88 + 0.07 * t).toFixed(4)
+      );
+    }
+
+    function snap() {
+      state = "snapped";
+      teamPhoto.classList.remove("is-engaged", "is-releasing");
+      teamPhoto.classList.add("is-snapping");
+      setVars("1", "0px", "1");
+    }
+
+    function release(t) {
+      state = "releasing";
+      teamPhoto.classList.remove("is-snapping");
+      teamPhoto.classList.add("is-releasing");
+      engagedVars(t);
+      if (releaseTimer) window.clearTimeout(releaseTimer);
+      releaseTimer = window.setTimeout(function () {
+        state = "engaged";
+        teamPhoto.classList.remove("is-releasing");
+        teamPhoto.classList.add("is-engaged");
+      }, 560);
+    }
+
+    teamPhoto.classList.add("is-engaged");
+    engagedVars(0);
+
     var ticking = false;
-
     function update() {
       ticking = false;
       var r = teamPhoto.getBoundingClientRect();
       var vh = window.innerHeight || document.documentElement.clientHeight;
-      // p: 0 when photo top reaches viewport bottom, 1 after ~45% of viewport
-      var p = (vh - r.top) / (vh * 0.45);
-      if (p < 0) p = 0;
-      if (p > 1) p = 1;
-      var e = 1 - Math.pow(1 - p, 3); // easeOutCubic: fast in, slow out
-      img.style.opacity = e.toFixed(3);
-      img.style.transform = "translateY(" + ((1 - e) * 54).toFixed(1) +
-        "px) scale(" + (1 + (1 - e) * 0.035).toFixed(4) + ")";
+      var q = (vh - r.top) / vh;        // 0: top at viewport bottom; 1: top at top
+      if (q < 0) q = 0;
+      var t = Math.min(q / SNAP, 1);    // 0..1 up to the snap point
+
+      if (state === "snapped") {
+        if (q < RELEASE) release(t);
+        return;
+      }
+      if (state === "releasing") return; // let the release animation play
+      if (q >= SNAP) { snap(); return; }
+      engagedVars(t);
     }
 
     function req() {

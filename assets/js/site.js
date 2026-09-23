@@ -40,8 +40,9 @@
   function renderChrome() {
     var header = document.getElementById("site-header");
     if (header) {
+      header.className = "site-header";
       header.innerHTML =
-        '<div class="site-header"><div class="wrap nav-wrap">' +
+        '<div class="wrap nav-wrap">' +
         '<a class="brand" href="/">' +
         '<img class="brand-logo" src="/assets/img/full-name.png" alt="MSB — Mapping Schizophrenia Brain">' +
         "</a>" +
@@ -53,7 +54,7 @@
         li("publications", "/publications/", "nav.publications") +
         li("contact", "/contact/", "nav.contact") +
         '<li class="lang-item"><button class="lang-toggle" id="lang-toggle">中文</button></li>' +
-        "</ul></div></div>";
+        "</ul></div>";
 
       document.getElementById("menu-btn").addEventListener("click", function () {
         document.getElementById("nav-links").classList.toggle("open");

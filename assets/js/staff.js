@@ -22,12 +22,15 @@
     return (name || "?").split(/\s+/).map(function (w) { return w[0]; }).slice(0, 2).join("").toUpperCase();
   }
 
-  function avatar(m, lg) {
-    var cls = "avatar" + (lg ? " lg" : "");
+  function photoBlock(m, cls) {
     if (m.photo) {
       return '<img class="' + cls + '" src="/' + esc(m.photo) + '" alt="' + esc(m.name) + '" loading="lazy">';
     }
-    return '<span class="' + cls + '">' + esc(initials(m.name)) + "</span>";
+    return '<span class="' + cls + ' is-initials">' + esc(initials(m.name)) + "</span>";
+  }
+
+  function avatar(m, lg) {
+    return photoBlock(m, "avatar" + (lg ? " lg" : ""));
   }
 
   function links(m) {
@@ -67,7 +70,7 @@
         : " · " + window.MSB.t("staff.since") + " " + m.since;
     }
     var dest = lang() === "zh" ? (m.destination_zh || m.destination) : (m.destination || m.destination_zh);
-    return '<div class="member-card">' + avatar(m) + '<div class="member-info">' +
+    return '<div class="member-card">' + photoBlock(m, "member-photo") + '<div class="member-info">' +
       '<div class="member-name">' + esc(pick(m, "name")) + "</div>" +
       '<div class="member-role">' + esc(role + sincePart) + "</div>" +
       '<div class="member-research">' + esc(pick(m, "research")) + "</div>" +
