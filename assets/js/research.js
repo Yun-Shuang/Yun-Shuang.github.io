@@ -1,4 +1,6 @@
-/* Research page: renders the four research directions from _data/research.json */
+/* Research page: renders the four research directions from _data/research.json
+   (title, description, focus-area tags, representative publications, members).
+   Optional fields degrade gracefully: empty papers -> hidden block. */
 (function () {
   "use strict";
 
@@ -9,6 +11,7 @@
   var membersById = {};
 
   function lang() { return window.MSB.lang(); }
+  function t(k) { return window.MSB.t(k); }
   function esc(s) { return window.MSB.esc(s); }
   function pick(o, k) {
     var v = lang() === "zh" ? (o[k + "_zh"] || o[k]) : o[k];
@@ -23,7 +26,29 @@
 
   function render() {
     if (!dirs) return;
+
     box.innerHTML = dirs.map(function (d) {
+      var points = lang() === "zh" ? (d.points_zh || d.points || []) : (d.points || d.points_zh || []);
+      var tags = points.length
+        ? '<ul class="res-points">' + points.map(function (p) {
+            return "<li>" + esc(p) + "</li>";
+          }).join("") + "</ul>"
+        : "";
+
+      var papers = d.papers || [];
+      var papersHtml = "";
+      if (papers.length) {
+        papersHtml = '<h4 class="res-sub">' + esc(t("research.papers.title")) + "</h4>" +
+          '<ul class="res-papers">' + papers.map(function (p) {
+            return '<li><a href="' + esc(p.link) + '" target="_blank" rel="noopener">' +
+              esc(p.title) + "</a>" +
+              '<span class="res-paper-meta">' + esc(p.venue || "") +
+              (p.year ? " · " + esc(p.year) : "") + "</span></li>";
+          }).join("") + "</ul>";
+      } else if (d.ongoing) {
+        papersHtml = '<p class="res-ongoing">' + esc(t("research.ongoing")) + "</p>";
+      }
+
       var names = (d.members || []).map(function (id) {
         var m = membersById[id];
         if (!m) return "";
@@ -31,9 +56,15 @@
         return '<li><a href="/staff/">' + esc(pick(m, "name")) + "</a>" +
           '<span class="dir-role">' + esc(lang() === "zh" ? r[1] : r[0]) + "</span></li>";
       }).join("");
-      return '<article class="res-block"><h3>' + esc(pick(d, "title")) + "</h3>" +
+      var membersHtml = names
+        ? '<h4 class="res-sub">' + esc(t("research.members.title")) + '</h4><ul class="dir-members">' + names + "</ul>"
+        : "";
+
+      return '<article class="res-block" id="' + esc(d.slug || "") + '"><h3>' +
+        esc(pick(d, "title")) + "</h3>" +
         '<p class="dir-desc">' + esc(pick(d, "desc")) + "</p>" +
-        '<ul class="dir-members">' + names + "</ul></article>";
+        tags + papersHtml + membersHtml +
+        "</article>";
     }).join("");
   }
 

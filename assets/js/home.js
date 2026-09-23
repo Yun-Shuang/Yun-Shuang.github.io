@@ -1,9 +1,8 @@
-/* Home page: research directions, recent publications carousel,
-   team photo scroll reveal. */
+/* Home page: research direction list, recent publications carousel,
+   team photo scroll-magnetic-snap. */
 (function () {
   "use strict";
 
-  var membersById = {};
   var dirs = null;
   var papers = [];
   var pIdx = 0;
@@ -17,29 +16,16 @@
     return v || "";
   }
 
-  var ROLE_LABELS = {
-    phd: ["PhD student", "博士生"],
-    master: ["Master student", "硕士生"],
-    alumni: ["Alumni", "毕业校友"]
-  };
-
-  /* ---------------- 1.2 research directions ---------------- */
+  /* ---------------- 1.2 research directions (names + deep link) ---------------- */
   var dirGrid = document.getElementById("dir-grid");
 
   function renderDirections() {
     if (!dirGrid || !dirs) return;
-    dirGrid.innerHTML = dirs.map(function (d) {
-      var names = (d.members || []).map(function (id) {
-        var m = membersById[id];
-        if (!m) return "";
-        var pair = ROLE_LABELS[m.role] || ["", ""];
-        return '<li><a href="/staff/">' + esc(pick(m, "name")) + "</a>" +
-          '<span class="dir-role">' + esc(lang() === "zh" ? pair[1] : pair[0]) + "</span></li>";
-      }).join("");
-      return '<article class="dir-card"><h3>' + esc(pick(d, "title")) + "</h3>" +
-        '<p class="dir-desc">' + esc(pick(d, "desc")) + "</p>" +
-        '<ul class="dir-members">' + names + "</ul></article>";
-    }).join("");
+    dirGrid.innerHTML = '<ul class="dir-names">' + dirs.map(function (d) {
+      var href = "/research/" + (d.slug ? "#" + d.slug : "");
+      return '<li><a href="' + esc(href) + '"><span>' + esc(pick(d, "title")) +
+        '</span><span class="dir-arrow" aria-hidden="true">→</span></a></li>';
+    }).join("") + "</ul>";
   }
 
   /* ---------------- 1.3 recent publications ---------------- */
@@ -182,11 +168,6 @@
   }
 
   /* ---------------- boot ---------------- */
-  window.MSB.fetchJSON("/_data/members.json").then(function (d) {
-    (d.members || []).forEach(function (m) { membersById[m.id] = m; });
-    renderDirections();
-  }).catch(function () {});
-
   window.MSB.fetchJSON("/_data/research.json").then(function (d) {
     dirs = d.directions || [];
     renderDirections();

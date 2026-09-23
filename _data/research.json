@@ -1,32 +1,112 @@
 {
   "directions": [
     {
+      "slug": "brain-development",
       "title": "Brain development and neuroimaging genetics",
       "title_zh": "脑发育与影像遗传学",
       "desc": "Uncovering the associations among brain evolution, development, and psychiatric disorders using multiple MRI and spatial transcriptomic data",
       "desc_zh": "结合多模态磁共振成像与空间转录组数据，揭示脑进化、脑发育与精神疾病之间的关联",
-      "members": ["xiaoxue-fu", "chang-yan", "sheng-ling", "yuting-xu"]
+      "points": ["Multimodal MRI", "Spatial transcriptomics", "Imaging genetics", "Brain development"],
+      "points_zh": ["多模态磁共振成像", "空间转录组学", "影像遗传学", "脑发育"],
+      "members": ["xiaoxue-fu", "chang-yan", "sheng-ling", "yuting-xu"],
+      "papers": [
+        {
+          "title": "Neurodevelopmentally rooted epicenters in schizophrenia: sensorimotor-association spatial axis of cortical thickness alterations",
+          "venue": "Molecular Psychiatry",
+          "year": 2025,
+          "link": "https://doi.org/10.1038/s41380-025-03193-9"
+        },
+        {
+          "title": "Anterior-posterior systematic deficits of cortical thickness in early-onset schizophrenia",
+          "venue": "Communications Biology",
+          "year": 2025,
+          "link": "https://doi.org/10.1038/s42003-025-08216-3"
+        },
+        {
+          "title": "Systematically mapping gray matter abnormal patterns in drug-naïve first-episode schizophrenia from childhood to adolescence",
+          "venue": "Cerebral Cortex",
+          "year": 2022,
+          "link": "https://doi.org/10.1093/cercor/bhac148"
+        }
+      ]
     },
     {
+      "slug": "connectomics-dynamics",
       "title": "Brain connectomics and dynamics",
       "title_zh": "脑连接组学与动力学",
       "desc": "Characterizing aberrant brain network organization using connectomics, gradients, effective connectivity and temporal dynamics",
       "desc_zh": "利用连接组学、功能梯度、有效连接与时间动态，刻画精神疾病中的异常脑网络组织",
-      "members": ["xiumei-wu", "john-worrick", "wenxuan-gu", "maowei-ye"]
+      "points": ["Connectomics", "Functional gradients", "Effective connectivity", "Temporal dynamics"],
+      "points_zh": ["连接组学", "功能梯度", "有效连接", "时间动态"],
+      "members": ["xiumei-wu", "john-worrick", "wenxuan-gu", "maowei-ye"],
+      "papers": [
+        {
+          "title": "Spatio-temporal information transition abnormalities across brain functional networks in early-onset schizophrenia",
+          "venue": "Schizophrenia Research",
+          "year": 2025,
+          "link": "https://doi.org/10.1016/j.schres.2025.11.007"
+        },
+        {
+          "title": "The thalamic functional gradient and its relationship to structural basis and cognitive relevance",
+          "venue": "NeuroImage",
+          "year": 2020,
+          "link": "https://doi.org/10.1016/j.neuroimage.2020.116960"
+        }
+      ]
     },
     {
+      "slug": "environment-proteomics",
       "title": "Environmental factors and proteomics",
       "title_zh": "环境因素与蛋白质组学",
       "desc": "Modeling pathophysiological mechanisms by integrating neuroimaging, environmental exposure, and proteomic data",
       "desc_zh": "融合脑影像、环境暴露与蛋白质组数据，建模精神疾病的病理生理机制",
-      "members": ["liju-liu", "yiqi-mi", "jinxing-chen"]
+      "points": ["Environmental exposure", "Proteomics", "Inflammation", "Gene–environment interaction"],
+      "points_zh": ["环境暴露", "蛋白质组学", "炎症", "基因-环境交互"],
+      "members": ["liju-liu", "yiqi-mi", "jinxing-chen"],
+      "papers": [
+        {
+          "title": "Inflammation in schizophrenia: Peripheral interleukin-6-related disease-specific functional activity abnormalities",
+          "venue": "bioRxiv",
+          "year": 2026,
+          "link": "https://doi.org/10.64898/2026.02.06.704308"
+        },
+        {
+          "title": "A temporal chronnectomic framework: cigarette smoking preserved the prefrontal dysfunction in schizophrenia",
+          "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
+          "year": 2020,
+          "link": "https://doi.org/10.1016/j.pnpbp.2020.109860"
+        }
+      ]
     },
     {
+      "slug": "pattern-recognition",
       "title": "Pattern recognition and intervention",
       "title_zh": "模式识别与干预",
       "desc": "Developing machine-learning methods to predict symptoms, treatment response and illness trajectories, and further aiding clinical interventions",
       "desc_zh": "发展机器学习方法，预测症状、治疗反应与疾病转归，辅助临床干预",
-      "members": ["zihan-zhang", "lei-cheng", "shang-ma", "wenfeng-jing"]
+      "points": ["Machine learning", "Individualized prediction", "Treatment response", "Clinical intervention"],
+      "points_zh": ["机器学习", "个体化预测", "治疗反应", "临床干预"],
+      "members": ["zihan-zhang", "lei-cheng", "shang-ma", "wenfeng-jing"],
+      "papers": [
+        {
+          "title": "FL-SDGIN: A federated graph learning approach for schizophrenia diagnosis integrating static and dynamic brain functional networks",
+          "venue": "Schizophrenia Research",
+          "year": 2026,
+          "link": "https://doi.org/10.1016/j.schres.2026.06.026"
+        },
+        {
+          "title": "Neurodevelopmental deviations in schizophrenia: Evidences from multimodal connectome-based brain ages",
+          "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
+          "year": 2025,
+          "link": "https://doi.org/10.1016/j.pnpbp.2025.111498"
+        },
+        {
+          "title": "Tracking positive and negative symptom improvement in first-episode schizophrenia treated with risperidone using individual-level functional connectivity",
+          "venue": "Brain Connectivity",
+          "year": 2021,
+          "link": "https://doi.org/10.1089/brain.2021.0061"
+        }
+      ]
     }
   ]
 }

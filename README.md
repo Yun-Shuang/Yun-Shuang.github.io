@@ -18,7 +18,7 @@ Built as a pure static site (HTML/CSS/JS, no build step) and hosted on GitHub Pa
 │   ├── members/            成员数据：每人一个 <id>.json（成员自助维护，PR 审批）
 │   │   └── _template.json  新成员模板
 │   ├── members.json        聚合产物（Actions 自动生成，请勿手改）
-│   ├── research.json       四个研究方向（标题 / 描述 / 成员名单）
+│   ├── research.json       研究方向数据（标题/描述/关键词要点/代表论文/成员）
 │   ├── highlights.json     首页"近期研究文章"（论文 + 封面图路径 + 链接）
 │   ├── publications.json   论文数据（Actions 每周自动同步 OpenAlex）
 │   └── gallery.json        活动相册清单（Actions 根据 assets/img/gallery/ 自动同步）
@@ -38,7 +38,7 @@ Built as a pure static site (HTML/CSS/JS, no build step) and hosted on GitHub Pa
 
 | 想改什么 | 编辑哪个文件 | 说明 |
 |---|---|---|
-| 研究方向 | `_data/research.json` | 四个方向的标题、英文/中文描述、成员名单（成员用 `_data/members` 里的 id 关联） |
+| 研究方向 | `_data/research.json` | 首页只显示方向名（点击跳到研究页对应位置）；研究页显示描述、关键词要点、代表论文、成员。`papers`/`points` 留空则自动隐藏
 | 近期研究文章 | `_data/highlights.json` | 论文标题/期刊/引用数/链接；封面图放到 `assets/img/covers/paper-1.jpg` ~ `paper-5.jpg`（缺图会自动显示文字卡片） |
 | 负责人教育/工作经历、科研项目 | `assets/i18n/zh.json` + `en.json` | `home.pi.*`、`home.funding.*` 开头的键，中英各改一份 |
 | 首页标题与简介 | 同上两个语言包 | `home.title`、`home.lead` |
