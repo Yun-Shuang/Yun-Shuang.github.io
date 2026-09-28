@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-28",
   "source": "OpenAlex",
   "scholar_id": "CY_RlkAAAAAJ",
   "openalex_id": "A5001128668",
   "profile": {
     "name": "Yun-Shuang Fan",
     "affiliation": "University of Electronic Science and Technology of China",
-    "citedby": 943,
+    "citedby": 948,
     "hindex": 17,
     "i10index": 23
   },
@@ -20,6 +20,22 @@
       "link": "https://doi.org/10.1016/j.schres.2026.06.026"
     },
     {
+      "title": "Individual Brain Structure Deviations and its Gene Expression Signatures in Early-Onset Schizophrenia",
+      "authors": "Yun-Shuang Fan, Yuting Xu, Yong Xu, Liju Liu, Mi Yang, Jing Guo, Huafu Chen",
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "year": 2026,
+      "citations": 0,
+      "link": "https://doi.org/10.64898/2026.02.06.704304"
+    },
+    {
+      "title": "Individualized cortical gradient and network topology reveal symptom-linked disruptions and neurobiological subtypes in schizophrenia",
+      "authors": "Bin Wan, Sara Larivière, Clara A. Moreau, Varun Warrier, Richard A. I. Bethlehem, Yun-Shuang Fan, Yuankai He, Ingrid Agartz, et al.",
+      "venue": "medRxiv",
+      "year": 2026,
+      "citations": 0,
+      "link": "https://doi.org/10.64898/2026.04.25.26351736"
+    },
+    {
       "title": "Inflammation in schizophrenia: Peripheral interleukin-6-related disease-specific functional activity abnormalities",
       "authors": "Yun-Shuang Fan, Jinxing Chen, Liju Liu, Cuiling Zhang, Jìng Guo, Huafu Chen, Mi Yang",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
@@ -28,8 +44,16 @@
       "link": "https://doi.org/10.64898/2026.02.06.704308"
     },
     {
+      "title": "Microscopic connectome-based disease epicenter diffusion patterns in early-onset schizophrenia",
+      "authors": "Huafu Chen, Yun-Shuang Fan, Wenfeng Jing, Yong Ji Xu, Liju Liu, Maowei Ye, Mi Yang, Jing Guo",
+      "venue": "Research Square",
+      "year": 2026,
+      "citations": 0,
+      "link": "https://doi.org/10.21203/rs.3.rs-9639337/v1"
+    },
+    {
       "title": "Neurodevelopmentally rooted epicenters in schizophrenia: sensorimotor-association spatial axis of cortical thickness alterations",
-      "authors": "Yun-Shuang Fan, Yong Xu, Meike D. Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
+      "authors": "Yun-Shuang Fan, Yong Ji Xu, Meike Dorothee Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
       "venue": "Molecular Psychiatry",
       "year": 2025,
       "citations": 6,
@@ -45,7 +69,7 @@
     },
     {
       "title": "Anterior-posterior systematic deficits of cortical thickness in early-onset schizophrenia",
-      "authors": "Yun-Shuang Fan, Yong Xu, Bin Wan, Wei Sheng, Chong Wang, Mi Yang, Sofie L. Valk, Huafu Chen",
+      "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Mi Yang, Sofie Louise Valk, Huafu Chen",
       "venue": "Communications Biology",
       "year": 2025,
       "citations": 3,
@@ -61,7 +85,7 @@
     },
     {
       "title": "Spatio-temporal information transition abnormalities across brain functional networks in early-onset schizophrenia",
-      "authors": "Yun-Shuang Fan, Mang Ye, Yuting Xu, Yong Xu, Jing Guo, Mi Yang, Wei Huang, Huafu Chen",
+      "authors": "Yun-Shuang Fan, Maowei Ye, Yuting Xu, Yong Ji Xu, Jing Guo, Mi Yang, Wei Huang, Huafu Chen",
       "venue": "Schizophrenia Research",
       "year": 2025,
       "citations": 0,
@@ -69,7 +93,7 @@
     },
     {
       "title": "Neurodevelopmentally rooted epicenters in schizophrenia: sensorimotor-association spatial axis of cortical thickness alterations",
-      "authors": "Yun-Shuang Fan, Yong Xu, Meike D. Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
+      "authors": "Yun-Shuang Fan, Yong Ji Xu, Meike Dorothee Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "year": 2024,
       "citations": 2,
@@ -77,7 +101,7 @@
     },
     {
       "title": "An investigation into the abnormal dynamic connection mechanism of generalized anxiety disorders based on non-homogeneous Markov models",
-      "authors": "Qin Tang, Gan Zhang, Yun-Shuang Fan, Wei Sheng, Chenguang Yang, Liju Liu, Xingli Liu, H. Liu, et al.",
+      "authors": "Qin Tang, Gan Zhang, Yun-Shuang Fan, Wei Sheng, Chenguang Yang, Liju Liu, Xingli Liu, Haoxiang Liu, et al.",
       "venue": "Journal of Affective Disorders",
       "year": 2024,
       "citations": 1,
@@ -93,7 +117,7 @@
     },
     {
       "title": "Contracted anterior-posterior systematic covariance of cortical thickness in early-onset schizophrenia",
-      "authors": "Yun-Shuang Fan, Yong Xu, Bin Wan, Wei Sheng, Chong Wang, Sofie L. Valk, Sofie Louise Valk, Huafu Chen",
+      "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Sofie Louise Valk, Sofie Louise Valk, Huafu Chen",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "year": 2024,
       "citations": 0,
@@ -125,15 +149,15 @@
     },
     {
       "title": "Cerebello‐cerebral resting‐state functional connectivity in spinocerebellar ataxia type 3",
-      "authors": "Jing Guo, Zhouyu Jiang, Xinyuan Liu, Haoru Li, Bharat B. Biswal, Bo Zhou, Wei Sheng, Qing Gao, et al.",
+      "authors": "Jing Guo, Zhouyu Jiang, Xinyuan Liu, Haoru Li, Bharat B. Biswal, Bo Zhou, Wei Sheng, Qing Chun Gao, et al.",
       "venue": "Human Brain Mapping",
       "year": 2022,
-      "citations": 22,
+      "citations": 24,
       "link": "https://doi.org/10.1002/hbm.26113"
     },
     {
       "title": "Disassociated and concurrent structural and functional abnormalities in the drug-naïve first-episode early onset schizophrenia",
-      "authors": "Qiang Li, Sha Liu, Xiaohua Cao, Zexuan Li, Yun-Shuang Fan, Yanfang Wang, Jiaojian Wang, Yong Xu",
+      "authors": "Qiang Li, Sha Liu, Xiaohua Cao, Zexuan Li, Yun-Shuang Fan, Yanfang Wang, Jiaojian Wang, Yong Ji Xu",
       "venue": "Brain Imaging and Behavior",
       "year": 2022,
       "citations": 17,
@@ -149,7 +173,7 @@
     },
     {
       "title": "Hypothalamic Atrophy, Expanded CAG Repeat, and Low Body Mass Index in Spinocerebellar Ataxia Type 3",
-      "authors": "Jing Guo, Zhouyu Jiang, Bharat B. Biswal, Bo Zhou, Dongjing Xie, Qing Gao, Wei Sheng, Hui Chen, et al.",
+      "authors": "Jing Guo, Zhouyu Jiang, Bharat B. Biswal, Bo Zhou, Dongjing Xie, Qing Chun Gao, Wei Sheng, Hui Chen, et al.",
       "venue": "Movement Disorders",
       "year": 2022,
       "citations": 11,
@@ -172,19 +196,11 @@
       "link": "https://doi.org/10.1101/2022.05.11.489776"
     },
     {
-      "title": "Schizophrenia and Macroscale Brain Structure: Genes in Context",
-      "authors": "Meike D. Hettwer, Amin Saberi, Yun-Shuang Fan, Sofie L. Valk",
-      "venue": "Biological Psychiatry",
-      "year": 2022,
-      "citations": 0,
-      "link": "https://doi.org/10.1016/j.biopsych.2022.06.010"
-    },
-    {
       "title": "Cortical patterning of morphometric similarity gradient reveals diverged hierarchical organization in sensory-motor cortices",
       "authors": "Siqi Yang, Konrad Wagstyl, Yao Meng, Xiaopeng Zhao, Jiao Li, Peng Zhong, Bing Li, Yun-Shuang Fan, et al.",
       "venue": "Cell Reports",
       "year": 2021,
-      "citations": 62,
+      "citations": 65,
       "link": "https://doi.org/10.1016/j.celrep.2021.109582"
     },
     {
@@ -269,7 +285,7 @@
     },
     {
       "title": "A temporal chronnectomic framework: Cigarette smoking preserved the prefrontal dysfunction in schizophrenia",
-      "authors": "Yun-Shuang Fan, Siqi Yang, Zehan Li, Jian Li, Xiaonan Guo, Shaoqiang Han, Jing Guo, Xujun Duan, et al.",
+      "authors": "Yun-Shuang Fan, Siqi Yang, Zehan Li, Jiao Li, Xiaonan Guo, Shaoqiang Han, Jing Guo, Xujun Duan, et al.",
       "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
       "year": 2020,
       "citations": 3,
@@ -301,7 +317,7 @@
     },
     {
       "title": "Temporal dynamic changes of intrinsic brain activity in schizophrenia with cigarette smoking",
-      "authors": "Siqi Yang, Yao Meng, Jian Li, Yun-Shuang Fan, Lian Du, Huafu Chen, Wei Liao",
+      "authors": "Siqi Yang, Yao Meng, Jiao Li, Yun-Shuang Fan, Lian Du, Huafu Chen, Wei Liao",
       "venue": "Schizophrenia Research",
       "year": 2019,
       "citations": 44,
@@ -325,7 +341,7 @@
     },
     {
       "title": "Preservation Effect: Cigarette Smoking Acts on the Dynamic of Influences Among Unifying Neuropsychiatric Triple Networks in Schizophrenia",
-      "authors": "Wei Liao, Yun-Shuang Fan, Siqi Yang, Jian Li, Xujun Duan, Qian Cui, Huafu Chen",
+      "authors": "Wei Liao, Yun-Shuang Fan, Siqi Yang, Jiao Li, Xujun Duan, Qian Cui, Huafu Chen",
       "venue": "Schizophrenia Bulletin",
       "year": 2018,
       "citations": 51,
