@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-05",
   "source": "OpenAlex",
   "scholar_id": "CY_RlkAAAAAJ",
   "openalex_id": "A5001128668",
   "profile": {
     "name": "Yun-Shuang Fan",
     "affiliation": "University of Electronic Science and Technology of China",
-    "citedby": 948,
+    "citedby": 949,
     "hindex": 17,
     "i10index": 23
   },
@@ -200,7 +200,7 @@
       "authors": "Siqi Yang, Konrad Wagstyl, Yao Meng, Xiaopeng Zhao, Jiao Li, Peng Zhong, Bing Li, Yun-Shuang Fan, et al.",
       "venue": "Cell Reports",
       "year": 2021,
-      "citations": 65,
+      "citations": 66,
       "link": "https://doi.org/10.1016/j.celrep.2021.109582"
     },
     {
@@ -232,7 +232,7 @@
       "authors": "Siqi Yang, Yao Meng, Jiao Li, Bing Li, Yun-Shuang Fan, Huafu Chen, Wei Liao",
       "venue": "NeuroImage",
       "year": 2020,
-      "citations": 91,
+      "citations": 93,
       "link": "https://doi.org/10.1016/j.neuroimage.2020.116960"
     },
     {
@@ -240,7 +240,7 @@
       "authors": "Shaoqiang Han, Qian Cui, Xiao Wang, Liang Li, Di Li, Zongling He, Xiaonan Guo, Yun-Shuang Fan, et al.",
       "venue": "Human Brain Mapping",
       "year": 2020,
-      "citations": 88,
+      "citations": 87,
       "link": "https://doi.org/10.1002/hbm.25017"
     },
     {
@@ -360,7 +360,7 @@
       "authors": "Mi Yang, Pu Yang, Yun-Shuang Fan, Jiao Li, Dezhong Yao, Wei Liao, Huafu Chen",
       "venue": "Brain Topography",
       "year": 2017,
-      "citations": 25,
+      "citations": 26,
       "link": "https://doi.org/10.1007/s10548-017-0594-7"
     },
     {
