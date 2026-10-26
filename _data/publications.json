@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "source": "OpenAlex",
   "scholar_id": "CY_RlkAAAAAJ",
   "openalex_id": "A5001128668",
   "profile": {
     "name": "Yun-Shuang Fan",
     "affiliation": "University of Electronic Science and Technology of China",
-    "citedby": 899,
+    "citedby": 904,
     "hindex": 16,
     "i10index": 22
   },
@@ -136,7 +136,7 @@
       "authors": "Jing Guo, Zhouyu Jiang, Xinyuan Liu, Haoru Li, Bharat B. Biswal, Bo Zhou, Wei Sheng, Qing Chun Gao, et al.",
       "venue": "Human Brain Mapping",
       "year": 2022,
-      "citations": 22,
+      "citations": 23,
       "link": "https://doi.org/10.1002/hbm.26113"
     },
     {
@@ -176,7 +176,7 @@
       "authors": "Siqi Yang, Konrad Wagstyl, Yao Meng, Xiaopeng Zhao, Jiao Li, Peng Zhong, Bing Li, Yun-Shuang Fan, et al.",
       "venue": "Cell Reports",
       "year": 2021,
-      "citations": 66,
+      "citations": 67,
       "link": "https://doi.org/10.1016/j.celrep.2021.109582"
     },
     {
@@ -208,7 +208,7 @@
       "authors": "Shaoqiang Han, Qian Cui, Xiao Wang, Liang Li, Di Li, Zongling He, Xiaonan Guo, Yun-Shuang Fan, et al.",
       "venue": "Human Brain Mapping",
       "year": 2020,
-      "citations": 79,
+      "citations": 80,
       "link": "https://doi.org/10.1002/hbm.25017"
     },
     {
@@ -232,7 +232,7 @@
       "authors": "Jing Guo, Hui Chen, Bharat B. Biswal, Xiaonan Guo, Huangbin Zhang, Limeng Dai, Yuhan Zhang, Liang Li, et al.",
       "venue": "Neurology",
       "year": 2020,
-      "citations": 37,
+      "citations": 39,
       "link": "https://doi.org/10.1212/wnl.0000000000010986"
     },
     {
