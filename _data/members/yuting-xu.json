@@ -3,20 +3,20 @@
   "name": "Yuting Xu",
   "name_zh": "徐雨停",
   "role": "alumni",
-  "since": 2022,
-  "research": "Brain development and neuroimaging genetics",
-  "research_zh": "脑发育与影像遗传学",
-  "photo": "",
-  "email": "",
+  "since": 2023,
+  "research": "Computational Neuroimaging, Normative Modeling and Schizophrenia Research",
+  "research_zh": "计算神经影像、常规建模与精神分裂症研究",
+  "photo": "assets/people/yuting-xu.jpg",
+  "email": "yutingxu0313@163.com",
   "links": {
-    "scholar": "",
-    "github": "",
+    "scholar": "https://scholar.google.com/citations?hl=en&user=sffcYBwAAAAJ",
+    "github": "https://github.com/swheefish",
     "gitlab": "",
     "orcid": "",
     "homepage": ""
   },
   "bio": "",
   "bio_zh": "",
-  "destination": "",
-  "destination_zh": ""
+  "destination": "PhD student at HongKong Baptist University",
+  "destination_zh": "香港浸会大学读博"
 }
