@@ -93,6 +93,28 @@
       "destination_zh": ""
     },
     {
+      "id": "sheng-ling",
+      "name": "Sheng Ling",
+      "name_zh": "凌圣",
+      "role": "master",
+      "since": 2026,
+      "research": "The pathogenesis of schizophrenia",
+      "research_zh": "精神分裂症发病机制",
+      "photo": "assets/people/sheng-ling.jpg",
+      "email": "2972162884@qq.com",
+      "links": {
+        "scholar": "",
+        "github": "",
+        "gitlab": "",
+        "orcid": "",
+        "homepage": ""
+      },
+      "bio": "",
+      "bio_zh": "",
+      "destination": "",
+      "destination_zh": ""
+    },
+    {
       "id": "wenxuan-gu",
       "name": "Wenxuan Gu",
       "name_zh": "古文萱",
@@ -168,28 +190,6 @@
       "research_zh": "脑影像分析、神经影像组学",
       "photo": "assets/people/jinxing-chen.jpg",
       "email": "jxchendayup@gmail.com",
-      "links": {
-        "scholar": "",
-        "github": "",
-        "gitlab": "",
-        "orcid": "",
-        "homepage": ""
-      },
-      "bio": "",
-      "bio_zh": "",
-      "destination": "",
-      "destination_zh": ""
-    },
-    {
-      "id": "sheng-ling",
-      "name": "Sheng Ling",
-      "name_zh": "凌圣",
-      "role": "master",
-      "since": 2024,
-      "research": "The pathogenesis of schizophrenia",
-      "research_zh": "精神分裂症发病机制",
-      "photo": "assets/people/sheng-ling.jpg",
-      "email": "2972162884@qq.com",
       "links": {
         "scholar": "",
         "github": "",
@@ -291,6 +291,28 @@
       "destination_zh": ""
     },
     {
+      "id": "maowei-ye",
+      "name": "Maowei Ye",
+      "name_zh": "叶茂威",
+      "role": "alumni",
+      "since": 2023,
+      "research": "Brain connectomics and dynamics",
+      "research_zh": "脑连接组学与动力学",
+      "photo": "assets/people/maowei-ye.jpg",
+      "email": "miracle_553@163.com",
+      "links": {
+        "scholar": "",
+        "github": "",
+        "gitlab": "",
+        "orcid": "",
+        "homepage": ""
+      },
+      "bio": "",
+      "bio_zh": "",
+      "destination": "",
+      "destination_zh": ""
+    },
+    {
       "id": "wenfeng-jing",
       "name": "Wenfeng Jing",
       "name_zh": "景文凤",
@@ -317,44 +339,22 @@
       "name": "Yuting Xu",
       "name_zh": "徐雨停",
       "role": "alumni",
-      "since": 2022,
-      "research": "Brain development and neuroimaging genetics",
-      "research_zh": "脑发育与影像遗传学",
-      "photo": "",
-      "email": "",
+      "since": 2023,
+      "research": "Computational Neuroimaging, Normative Modeling and Schizophrenia Research",
+      "research_zh": "计算神经影像、常规建模与精神分裂症研究",
+      "photo": "assets/people/yuting-xu.jpg",
+      "email": "yutingxu0313@163.com",
       "links": {
-        "scholar": "",
-        "github": "",
+        "scholar": "https://scholar.google.com/citations?hl=en&user=sffcYBwAAAAJ",
+        "github": "https://github.com/swheefish",
         "gitlab": "",
         "orcid": "",
         "homepage": ""
       },
       "bio": "",
       "bio_zh": "",
-      "destination": "",
-      "destination_zh": ""
-    },
-    {
-      "id": "maowei-ye",
-      "name": "Maowei Ye",
-      "name_zh": "叶茂威",
-      "role": "alumni",
-      "since": 0,
-      "research": "Brain connectomics and dynamics",
-      "research_zh": "脑连接组学与动力学",
-      "photo": "",
-      "email": "",
-      "links": {
-        "scholar": "",
-        "github": "",
-        "gitlab": "",
-        "orcid": "",
-        "homepage": ""
-      },
-      "bio": "",
-      "bio_zh": "",
-      "destination": "",
-      "destination_zh": ""
+      "destination": "PhD student at HongKong Baptist University",
+      "destination_zh": "香港浸会大学读博"
     }
   ]
 }
