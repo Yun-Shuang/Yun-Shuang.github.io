@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "source": "OpenAlex",
   "scholar_id": "CY_RlkAAAAAJ",
   "openalex_id": "A5001128668",
   "profile": {
     "name": "Yun-Shuang Fan",
     "affiliation": "University of Electronic Science and Technology of China",
-    "citedby": 904,
+    "citedby": 906,
     "hindex": 16,
     "i10index": 22
   },
@@ -101,7 +101,7 @@
     },
     {
       "title": "Contracted anterior-posterior systematic covariance of cortical thickness in early-onset schizophrenia",
-      "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Sofie Louise Valk, Sofie Louise Valk, Huafu Chen",
+      "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Sofie Louise Valk, Huafu Chen",
       "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
       "year": 2024,
       "citations": 0,
@@ -126,7 +126,7 @@
     {
       "title": "A multi-attention based fMRI feature extraction method for brain states recognition",
       "authors": "Chong Wang, Hongmei Yan, Tao Liu, Wei Sheng, Yun-Shuang Fan, Rong Li, Huafu Chen",
-      "venue": "",
+      "venue": "International Conference on Graphics and Image Processing (ICGIP)",
       "year": 2023,
       "citations": 0,
       "link": "https://doi.org/10.1117/12.2680732"
@@ -184,7 +184,7 @@
       "authors": "Yun-Shuang Fan, Haoru Li, Jing Guo, Yajing Pang, Liang Li, Maolin Hu, Meiling Li, Chong Wang, et al.",
       "venue": "Brain Connectivity",
       "year": 2021,
-      "citations": 10,
+      "citations": 11,
       "link": "https://doi.org/10.1089/brain.2021.0061"
     },
     {
@@ -216,7 +216,7 @@
       "authors": "Yuyan Chen, Qian Cui, Yun-Shuang Fan, Xiaonan Guo, Qin Tang, Wei Sheng, Ting Lei, Di Li, et al.",
       "venue": "Neuropsychopharmacology",
       "year": 2020,
-      "citations": 59,
+      "citations": 60,
       "link": "https://doi.org/10.1038/s41386-020-0704-1"
     },
     {
@@ -269,7 +269,7 @@
     },
     {
       "title": "Altered inter‐ and intrahemispheric functional connectivity dynamics in autistic children",
-      "authors": "Xiaonan Guo, Xujun Duan, Heng Chen, Changchun He, Changchun He, Jinming Xiao, Yun-Shuang Fan, Yun-Shuang Fan, et al.",
+      "authors": "Xiaonan Guo, Xujun Duan, Heng Chen, Changchun He, Jinming Xiao, Yun-Shuang Fan, Yun-Shuang Fan, Jing Guo, et al.",
       "venue": "Human Brain Mapping",
       "year": 2019,
       "citations": 90,
