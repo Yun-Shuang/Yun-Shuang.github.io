@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-09",
   "source": "OpenAlex",
   "scholar_id": "CY_RlkAAAAAJ",
   "openalex_id": "A5001128668",
   "profile": {
     "name": "Yun-Shuang Fan",
     "affiliation": "University of Electronic Science and Technology of China",
-    "citedby": 906,
+    "citedby": 916,
     "hindex": 16,
     "i10index": 22
   },
@@ -56,7 +56,7 @@
       "authors": "Yun-Shuang Fan, Yong Ji Xu, Meike D. Hettwer, Pengfei Yang, Wei Sheng, Chong Wang, Mi Yang, Matthias Kirschner, et al.",
       "venue": "Molecular Psychiatry",
       "year": 2025,
-      "citations": 7,
+      "citations": 6,
       "link": "https://doi.org/10.1038/s41380-025-03193-9"
     },
     {
@@ -64,7 +64,7 @@
       "authors": "Yun-Shuang Fan, Saike Zhang, Wei Sheng, Jing Guo, Hezong Ling, Qian Cui, Wei Huang, Huafu Chen",
       "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
       "year": 2025,
-      "citations": 3,
+      "citations": 4,
       "link": "https://doi.org/10.1016/j.pnpbp.2025.111283"
     },
     {
@@ -72,7 +72,7 @@
       "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Mi Yang, Sofie Louise Valk, Huafu Chen",
       "venue": "Communications Biology",
       "year": 2025,
-      "citations": 2,
+      "citations": 3,
       "link": "https://doi.org/10.1038/s42003-025-08216-3"
     },
     {
@@ -80,7 +80,7 @@
       "authors": "Yun-Shuang Fan, Pengfei Yang, Yucheng Zhu, Wenfeng Jing, Yuting Xu, Yong Xu, Jing Guo, Fengmei Lu, et al.",
       "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
       "year": 2025,
-      "citations": 2,
+      "citations": 3,
       "link": "https://doi.org/10.1016/j.pnpbp.2025.111498"
     },
     {
@@ -88,7 +88,7 @@
       "authors": "Yun-Shuang Fan, Maowei Ye, Yuting Xu, Yong Ji Xu, Jing Guo, Mi Yang, Wei Huang, Huafu Chen",
       "venue": "Schizophrenia Research",
       "year": 2025,
-      "citations": 0,
+      "citations": 1,
       "link": "https://doi.org/10.1016/j.schres.2025.11.007"
     },
     {
@@ -100,19 +100,11 @@
       "link": "https://doi.org/10.1016/j.jad.2024.03.038"
     },
     {
-      "title": "Contracted anterior-posterior systematic covariance of cortical thickness in early-onset schizophrenia",
-      "authors": "Yun-Shuang Fan, Yong Ji Xu, Bin Wan, Wei Sheng, Chong Wang, Sofie Louise Valk, Huafu Chen",
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "year": 2024,
-      "citations": 0,
-      "link": "https://doi.org/10.1101/2024.06.03.597077"
-    },
-    {
       "title": "Macroscale Thalamic Functional Organization Disturbances and Underlying Core Cytoarchitecture in Early-Onset Schizophrenia",
       "authors": "Yun-Shuang Fan, Yong Xu, Şeyma Bayrak, James M. Shine, Bin Wan, Haoru Li, Liang Li, Siqi Yang, et al.",
       "venue": "Schizophrenia Bulletin",
       "year": 2023,
-      "citations": 20,
+      "citations": 19,
       "link": "https://doi.org/10.1093/schbul/sbad048"
     },
     {
@@ -176,7 +168,7 @@
       "authors": "Siqi Yang, Konrad Wagstyl, Yao Meng, Xiaopeng Zhao, Jiao Li, Peng Zhong, Bing Li, Yun-Shuang Fan, et al.",
       "venue": "Cell Reports",
       "year": 2021,
-      "citations": 67,
+      "citations": 68,
       "link": "https://doi.org/10.1016/j.celrep.2021.109582"
     },
     {
@@ -184,7 +176,7 @@
       "authors": "Yun-Shuang Fan, Haoru Li, Jing Guo, Yajing Pang, Liang Li, Maolin Hu, Meiling Li, Chong Wang, et al.",
       "venue": "Brain Connectivity",
       "year": 2021,
-      "citations": 11,
+      "citations": 12,
       "link": "https://doi.org/10.1089/brain.2021.0061"
     },
     {
@@ -200,7 +192,7 @@
       "authors": "Siqi Yang, Yao Meng, Jiao Li, Bing Li, Yun-Shuang Fan, Huafu Chen, Wei Liao",
       "venue": "NeuroImage",
       "year": 2020,
-      "citations": 85,
+      "citations": 90,
       "link": "https://doi.org/10.1016/j.neuroimage.2020.116960"
     },
     {
@@ -208,7 +200,7 @@
       "authors": "Shaoqiang Han, Qian Cui, Xiao Wang, Liang Li, Di Li, Zongling He, Xiaonan Guo, Yun-Shuang Fan, et al.",
       "venue": "Human Brain Mapping",
       "year": 2020,
-      "citations": 80,
+      "citations": 81,
       "link": "https://doi.org/10.1002/hbm.25017"
     },
     {
@@ -216,7 +208,7 @@
       "authors": "Yuyan Chen, Qian Cui, Yun-Shuang Fan, Xiaonan Guo, Qin Tang, Wei Sheng, Ting Lei, Di Li, et al.",
       "venue": "Neuropsychopharmacology",
       "year": 2020,
-      "citations": 60,
+      "citations": 58,
       "link": "https://doi.org/10.1038/s41386-020-0704-1"
     },
     {
@@ -224,7 +216,7 @@
       "authors": "Siqi Yang, Zhiqiang Zhang, Huafu Chen, Yao Meng, Jiao Li, Zehan Li, Qiang Xu, Qirui Zhang, et al.",
       "venue": "Epilepsia",
       "year": 2020,
-      "citations": 51,
+      "citations": 52,
       "link": "https://doi.org/10.1111/epi.16759"
     },
     {
@@ -232,7 +224,7 @@
       "authors": "Jing Guo, Hui Chen, Bharat B. Biswal, Xiaonan Guo, Huangbin Zhang, Limeng Dai, Yuhan Zhang, Liang Li, et al.",
       "venue": "Neurology",
       "year": 2020,
-      "citations": 39,
+      "citations": 41,
       "link": "https://doi.org/10.1212/wnl.0000000000010986"
     },
     {
@@ -240,7 +232,7 @@
       "authors": "Yun-Shuang Fan, Liang Li, Yue Peng, Haoru Li, Jing Guo, Meiling Li, Siqi Yang, Yao Meng, et al.",
       "venue": "Human Brain Mapping",
       "year": 2020,
-      "citations": 37,
+      "citations": 38,
       "link": "https://doi.org/10.1002/hbm.25307"
     },
     {
@@ -248,7 +240,7 @@
       "authors": "Shaoqiang Han, Qian Cui, Xiao Wang, Yuyan Chen, Di Li, Liang Li, Xiaonan Guo, Yun-Shuang Fan, et al.",
       "venue": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
       "year": 2020,
-      "citations": 34,
+      "citations": 32,
       "link": "https://doi.org/10.1016/j.pnpbp.2020.109865"
     },
     {
@@ -288,8 +280,8 @@
       "authors": "Yun-Shuang Fan, Zehan Li, Xujun Duan, Jinming Xiao, Xiaonan Guo, Shaoqiang Han, Jing Guo, Siqi Yang, et al.",
       "venue": "Human Brain Mapping",
       "year": 2019,
-      "citations": 44,
-      "link": "https://doi.org/10.1002/hbm.24801"
+      "citations": 43,
+      "link": "https://doi.org/10.2139/ssrn.3391378"
     },
     {
       "title": "Temporal dynamic changes of intrinsic brain activity in schizophrenia with cigarette smoking",
@@ -312,7 +304,7 @@
       "authors": "Wei Liao, Yun-Shuang Fan, Siqi Yang, Jiao Li, Xujun Duan, Qian Cui, Huafu Chen",
       "venue": "Schizophrenia Bulletin",
       "year": 2018,
-      "citations": 52,
+      "citations": 53,
       "link": "https://doi.org/10.1093/schbul/sby184"
     },
     {
@@ -320,7 +312,7 @@
       "authors": "Wei Liao, Siqi Yang, Jiao Li, Yun-Shuang Fan, Xujun Duan, Qian Cui, Huafu Chen",
       "venue": "Brain Imaging and Behavior",
       "year": 2018,
-      "citations": 15,
+      "citations": 14,
       "link": "https://doi.org/10.1007/s11682-018-0001-3"
     },
     {
@@ -328,7 +320,7 @@
       "authors": "Mi Yang, Pu Yang, Yun-Shuang Fan, Jiao Li, Dezhong Yao, Wei Liao, Huafu Chen",
       "venue": "Brain Topography",
       "year": 2017,
-      "citations": 23,
+      "citations": 25,
       "link": "https://doi.org/10.1007/s10548-017-0594-7"
     },
     {
